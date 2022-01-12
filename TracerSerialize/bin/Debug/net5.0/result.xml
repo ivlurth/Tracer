@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<TraceResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <threads>
+    <TracingThread id="1" time="1375">
+      <methods>
+        <TracingMethod name="Void Main(System.String[])" className="Program" time="1375">
+          <methods>
+            <TracingMethod name="Void MethodFoo()" className="Foo" time="117">
+              <methods />
+            </TracingMethod>
+            <TracingMethod name="Void MethodBar()" className="Bar" time="212">
+              <methods />
+            </TracingMethod>
+            <TracingMethod name="Void MethodSleep(Int32)" className="Bar" time="15">
+              <methods />
+            </TracingMethod>
+            <TracingMethod name="Void MethodSleep(Int32)" className="Bar" time="16">
+              <methods />
+            </TracingMethod>
+          </methods>
+        </TracingMethod>
+      </methods>
+    </TracingThread>
+    <TracingThread id="6" time="116">
+      <methods>
+        <TracingMethod name="Void MethodFoo()" className="Foo" time="116">
+          <methods />
+        </TracingMethod>
+      </methods>
+    </TracingThread>
+    <TracingThread id="7" time="207">
+      <methods>
+        <TracingMethod name="Void MethodBar()" className="Bar" time="207">
+          <methods />
+        </TracingMethod>
+      </methods>
+    </TracingThread>
+  </threads>
+</TraceResult>
